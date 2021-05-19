@@ -1,0 +1,61 @@
+production:
+  "LGDHSFOOFY190002 Order 3":
+    iaa_gtc: LGDHSFOOFY190002
+    order_number: 3
+    mod_number: 1
+    start_date: "2020-02-05"
+    end_date: "2021-02-04"
+    estimated_amount: 247_823.25
+    pricing_model: 3
+    iaa_status: expired
+    approved_apps:
+      - "Friendly Government Agency"
+      - "Dashboard"
+    integrations:
+      - "service:provider:one"
+      - "service:provider:three"
+
+  "LGDHSFOOFY190002 Order 4":
+    iaa_gtc: LGDHSFOOFY190002
+    order_number: 4
+    mod_number: 0
+    start_date: "2021-02-05"
+    end_date: "2022-02-04"
+    estimated_amount: 350_000
+    pricing_model: 3
+    iaa_status: active
+    approved_apps:
+      - "Friendly Government Agency"
+      - "Dashboard"
+    integrations:
+      - "service:provider:one"
+      - "service:provider:three"
+
+  "LGDODBARFY200002 Order 2":
+    iaa_gtc: LGDODBARFY200002
+    order_number: 2
+    mod_number: 1
+    start_date: "2020-05-24"
+    end_date: "2021-05-23"
+    estimated_amount: 523_231
+    pricing_model: 3
+    iaa_status: active
+    approved_apps:
+      - "Test SP"
+    integrations:
+      - "service:provider:two"
+
+  "LGGSATTSFY210001 Order 1":
+    iaa_gtc: LGGSATTSFY210001
+    order_number: 1
+    mod_number: 0
+    start_date: "2021-04-07"
+    end_date: "2022-04-06"
+    estimated_amount: 200_000
+    pricing_model: 3
+    iaa_status: active
+    approved_apps:
+      - "Dashboard"
+    integrations:
+      - "urn:gov:gsa:openidconnect.profiles:sp:sso:gsa:dashboard"
+
