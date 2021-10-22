@@ -1,6 +1,6 @@
 class LoggingJob < ApplicationJob
   def perform(job_id:, sleep_duration: 10)
-    Rails.logger.info(
+    ActiveSupport::Logger.new(Rails.root.join('log', 'workers.log')).info(
       {
         timestamp: Time.zone.now.iso8601,
         host: Socket.gethostname,
